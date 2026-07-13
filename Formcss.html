@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form>
+    <div class="container">
+      <h1>Registration Form</h1>
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" required placeholder="Enter your name">
+      </div>
+      <div>
+        <label for="Email">Email:</label>
+        <input type="text" id="Email" required placeholder="Enter your email">
+      </div>
+      <div>
+        <label for="phone">phone:</label>
+        <input type="text" id="phone" required placeholder="Enter your phone">
+      </div>
+      <div>   
+        <label for="Age">Age:</label>
+        <input type="text" id="Age" required placeholder="Enter your age">
+      </div>
+      <div>   
+        <label for="Gender">Gender:</label>
+        <select id="Gender" required >
+          <option>Male</option>
+          <option>Female</option>
+          <option>Prefered not to say</option>
+        </select>
+      </div>
+      <div>
+        <label for="DOB">Date of birth:</label>
+        <input type="date" id="Dob" required placeholder="Enter your Dob">
+      </div> 
+      <div>
+        <label for="password">Create Password:</label>
+        <input type="password" id="password" required placeholder="Enter your password">
+      </div>
+
+      <div>
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword" required placeholder="Confirm your password">
+      </div>
+      <button type="submit" onclick="return checkPassword()">Submit</button> 
+    </div>
+  </form>
+</body>
+</html>
